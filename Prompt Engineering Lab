@@ -1,0 +1,301 @@
+Prompt Engineering Lab
+Name: Rhoda Idriss
+
+Exercise A: Explaining the SDLC
+Prompt 1: Zero-Shot
+Prompt
+What is the Software Development Life Cycle (SDLC)? Explain its main phases and why they are important.
+AI Response
+The Software Development Life Cycle (SDLC) is a process used by software development teams to plan, create, test, deploy, and maintain software.
+The maiare:
+Planning – The team defines the project goals, scope, resources, and schedule.
+Requirements Analysis – The team identifies what users and the business need from the software.
+Design – The team plans the structure, interface, database, and technical architecture.
+Development – Developers write the code and build the software.
+Testing – The software is tested to find and fix errors.
+Deployment – The completed software is released to users.
+Maintenance – The software is updated, improved, and fixed after release.
+The SDLC helps teams organize their work, reduce errors, manage resources, and develop software that meets user needs.
+Summary
+The response explains SDLC as a process for developing and maintaining software. It identifies seven main phases, from planning to maintenance. Each phase has a specific purpose in the software development process. The response is simple and gives a good basic understanding of SDLC.
+
+Prompt 2: Role Prompting
+Prompt
+You are an experienced software engineering teacher. Explain the Software Development Life Cycle (SDLC) to beginner students who have little knowledge of software development. Use simple language and organize your answer in a numbered list showing the seven main phases, what happens in each phase, and why each phase is important.
+AI Response
+The Software Development Life Cycle (SDLC) is a step-by-step process used by software teams to develop, test, release, and maintain software.
+1. Planning
+What happens: The team defines the project goals, scope, resources, and timeline.
+Why it is important: It gives the team direction and helps manage time and resources.
+2. Requirements Analysis
+What happens: The team identifies what users and the business need from the software.
+Why it is important: It ensures that developers understand what the software should do.
+3. Design
+What happens: The team plans how the software will look and work, including the interface, database, and system structure.
+Why it is important: It gives developers a clear plan for building the software.
+4. Development
+What happens: Developers write the code and create the software.
+Why it is important: This is where the planned design becomes a working application.
+5. Testing
+What happens: The software is checked for bugs, errors, security issues, and other problems.
+Why it is important: Testing improves quality and helps ensure the software works correctly.
+6. Deployment
+What happens: The completed software is released to users.
+Why it is important: Users can begin using the software in a real environment.
+7. Maintenance
+What happens: Developers fix problems, provide updates, and improve the software.
+Why it is important: Maintenance keeps the software useful, secure, and reliable.
+Summary
+The second response is more detailed and easier for beginners to understand. The teacher role encouraged the AI to explain the topic in a simple teaching style. The numbered format makes the seven phases easy to follow. It also explains both what happens and why each phase is important.
+Compare
+The Role Prompting response was more useful because it was clearer and better organized for beginners. I changed the prompt by giving the AI a teacher role, specifying the audience, and requesting a numbered format. The role helped the AI use a teaching style, while the audience requirement encouraged it to use simple language. The format requirement made the response easier to read and understand.
+
+Exercise B: Software Development Models
+Prompt
+You are a software development consultant helping a company choose the best software development model. For each situation below, recommend the most appropriate development model. Explain why it is suitable and briefly mention one limitation of the model.
+A project with stable, clearly defined requirements.
+A startup where requirements change frequently based on user feedback.
+A large project with significant technical and security risks.
+A project where testing and verification are extremely important.
+Present your answer in a clear table with the situation, recommended model, reason, and limitation.
+AI Response
+Situation
+Recommended Model
+Why It Is Appropriate
+Limitation
+Stable, clearly defined requirements
+Waterfall
+Waterfall is suitable because the requirements are clear and unlikely to change. It follows a structured sequence of stages.
+It is difficult to make major changes after development begins.
+Startup with frequently changing requirements
+Agile
+Agile uses short development cycles and regular customer feedback, making it suitable for changing requirements.
+The final cost and timeline can be difficult to predict.
+Large project with technical and security risks
+Spiral
+Spiral focuses on identifying and managing risks throughout development, making it suitable for high-risk projects.
+It can be complex and expensive to manage.
+Testing and verification are extremely important
+V-Model
+The V-Model emphasizes testing and verification alongside development activities.
+It is less flexible when requirements change.
+
+Reflection
+I learned that the best development model depends on the characteristics of the project. Waterfall is suitable when requirements are stable, while Agile is better when requirements change frequently. Spiral is useful for projects with high technical and security risks because it focuses on risk management. The V-Model is appropriate when testing and verification are very important.
+
+Exercise C: Requirements Extraction
+Prompt
+You are a software requirements analyst. Analyze the following client brief for a local bookstore:
+Track books, quantities, and prices.
+Manage supplier payments.
+Alert staff when stock is low.
+Identify best-selling books.
+Allow customers to check availability online.
+Produce clear records for a part-time assistant.
+The owner has a limited budget.
+Organize the requirements into:
+Functional requirements.
+Non-functional requirements.
+Must Have requirements.
+Should Have requirements.
+Nice to Have requirements.
+Questions or ambiguities that need clarification.
+Use simple language and consider the limited budget when prioritizing the requirements.
+AI Response
+1. Functional Requirements
+The system should store book information.
+The system should record book quantities and prices.
+The system should manage supplier payment records.
+The system should alert staff when stock is low.
+The system should identify best-selling books.
+Customers should be able to check book availability online.
+The system should produce clear records for the part-time assistant.
+Staff should be able to update book and stock information.
+2. Non-Functional Requirements
+Usability: The system should be simple and easy to use.
+Performance: Book information should load quickly.
+Security: Only authorized staff should access sensitive payment information.
+Reliability: The system should accurately store and retrieve records.
+Affordability: The system should fit within the bookstore's limited budget.
+Availability: The online availability feature should be accessible to customers when the system is operating.
+3. Must Have Requirements
+Track books, quantities, and prices.
+Manage supplier payments.
+Provide low-stock alerts.
+Identify best-selling books.
+Provide clear records for the assistant.
+Allow customers to check book availability online.
+4. Should Have Requirements
+Basic inventory and sales reports.
+Staff user accounts.
+Search and filtering for books.
+A simple dashboard showing stock levels.
+5. Nice to Have Requirements
+Mobile application.
+Customer reviews and ratings.
+Automated supplier notifications.
+Advanced sales analytics.
+Personalized book recommendations.
+6. Questions or Ambiguities
+How many books will the system manage?
+How often should stock be updated?
+What quantity should trigger a low-stock alert?
+Should customers only check availability or also reserve books?
+What supplier payment information should be stored?
+Who should have access to payment information?
+Does the bookstore already have a website?
+What is the exact available budget?
+Should the system work on mobile phones?
+What records or reports does the assistant need?
+Evaluation
+Two Things the AI Did Well
+It correctly separated functional requirements from non-functional requirements.
+It considered the limited budget when prioritizing the requirements.
+One Thing the AI Missed or Categorized Incorrectly
+The AI added some extra features that were not mentioned in the client brief, such as personalized recommendations and customer reviews. These could increase the cost and may not be necessary for the bookstore.
+One Improvement to the Prompt
+I would improve the prompt by asking the AI to clearly separate requirements directly stated by the client from additional suggestions. This would prevent unnecessary features from being treated as requirements.
+
+Exercise D: Prompt Iteration Challenge
+Version 1
+Prompt
+Create a project plan for a mobile application that allows university students to book campus study rooms.
+AI Response
+A project plan could include:
+Planning the project.
+Gathering requirements.
+Designing the application.
+Developing the application.
+Testing the application.
+Launching the application.
+Maintaining the application.
+What Is Missing?
+The response is too general. It does not include time estimates, deliverables, project risks, risk mitigation, team roles, or a budget. It also does not provide enough information about how the booking application should work.
+
+Version 2
+Prompt
+Create a project plan for a mobile application that allows university students to book campus study rooms. The application should allow students to view available rooms, select a date and time, make a booking, and cancel a booking. Include the main development phases, important tasks, and expected outcomes.
+What I Changed
+I added more information about the application and explained the main features students need.
+Why
+Adding context helps the AI understand the purpose of the application and produce a more relevant project plan.
+
+Version 3
+Prompt
+You are a software project manager. Create a project plan for a mobile application that allows university students to book campus study rooms. Students should be able to view available rooms, check room capacity, select a date and time, make or cancel bookings, and receive booking confirmations. The system should prevent double bookings. Organize the project using the seven SDLC phases and include major activities, deliverables, and possible risks.
+What I Changed
+I added a role, more application requirements, all seven SDLC phases, deliverables, and project risks.
+Why
+The role helps the AI respond like a project manager. The additional requirements give the AI enough context to create a realistic plan. Asking for SDLC phases, deliverables, and risks makes the answer more complete.
+
+Version 4: Final Prompt
+Final Prompt
+You are an experienced software project manager. Create a practical project plan for a mobile application that allows university students to book campus study rooms.
+The application should allow students to:
+View available study rooms.
+Check room capacity and availability.
+Select a date and time.
+Book and cancel rooms.
+Receive booking confirmation.
+Prevent double bookings.
+Structure the project using all 7 SDLC phases:
+Planning
+Requirements Analysis
+Design
+Development
+Testing
+Deployment
+Maintenance
+For each phase, include:
+Main activities.
+Estimated time.
+Key deliverables.
+Project risks.
+Risk mitigation strategies.
+Also include:
+Team roles and responsibilities.
+A rough project budget.
+Important assumptions.
+An overall project timeline.
+Assume this is a small-to-medium university project with a limited budget. Use simple language and present the information in clear tables where appropriate.
+AI Response
+Project Plan: University Study Room Booking App
+SDLC Phase
+Main Activities
+Time
+Key Deliverables
+Risks
+Risk Mitigation
+1. Planning
+Define goals, scope, stakeholders, resources, and schedule.
+1 week
+Project plan and scope document
+Unclear project scope
+Define and approve the scope early.
+2. Requirements Analysis
+Gather requirements from students and university staff.
+2 weeks
+Requirements document
+Missing requirements
+Interview users and review requirements.
+3. Design
+Design the user interface, database, booking system, and architecture.
+2 weeks
+UI designs and technical design
+Poor design
+Review designs with users and technical staff.
+4. Development
+Build the mobile application, database, accounts, and booking features.
+5 weeks
+Working application
+Coding errors and delays
+Conduct regular code reviews and progress checks.
+5. Testing
+Test functionality, security, usability, performance, and booking accuracy.
+2 weeks
+Test reports and corrected software
+Bugs and security problems
+Test throughout development and fix critical issues.
+6. Deployment
+Release the application and train administrators.
+1 week
+Live application and user guides
+Deployment problems
+Use a controlled launch and backup plan.
+7. Maintenance
+Fix bugs, monitor performance, update the application, and collect feedback.
+Ongoing
+Updates and maintenance reports
+Technical problems
+Monitor the system and perform regular maintenance.
+
+Team Roles
+Project Manager: Manages the project, schedule, budget, and communication.
+Requirements Analyst: Collects and documents user requirements.
+UI/UX Designer: Designs the interface and user experience.
+Mobile Developer: Builds the mobile application.
+Backend Developer: Develops the database and booking system.
+QA Tester: Tests the application and identifies problems.
+System Administrator: Supports deployment and system operations.
+Rough Budget
+A rough budget could be $10,000–$20,000, depending on whether the university uses its own staff or hires external developers. The main costs would include development, testing, hosting, and maintenance.
+Overall Timeline
+The initial project could take approximately 13 weeks, followed by ongoing maintenance and improvements.
+Important Risks
+Major risks include unclear requirements, development delays, security problems, double bookings, incorrect availability information, and budget limitations. These risks can be reduced through proper planning, regular testing, user feedback, security checks, and monitoring.
+
+Final Reflection
+Yes, my prompt improved from Version 1 to Version 4. Version 1 was very general and did not provide enough information for a complete project plan. The biggest improvements came from adding context, application requirements, a specific role, and clear output requirements. Version 4 was the most effective because it requested all seven SDLC phases, time estimates, deliverables, risks, risk mitigation, team roles, and a budget.
+
+Overall Reflection
+1. What makes a prompt effective?
+A good prompt is clear, specific, and provides enough context. It should explain what the AI needs to do and, when necessary, specify the audience, role, and desired format.
+2. Which prompting technique did you find most useful?
+I found role prompting most useful because giving the AI a specific role helps it provide a more relevant and professional response.
+3. Why is context important when working with AI?
+Context helps the AI understand the situation, goals, audience, and requirements. Without context, the AI may provide a general answer that does not fully meet the user's needs.
+4. Why should we review AI-generated responses instead of accepting them automatically?
+AI can sometimes provide incorrect information, make assumptions, or leave out important details. Reviewing the response helps identify mistakes and ensures that the final information is accurate and suitable.
+5. How can AI support software engineers across the SDLC?
+AI can help software engineers with planning, requirements analysis, system design, coding, testing, documentation, deployment, and maintenance. It can help generate ideas, explain code, identify possible bugs, create documentation, and suggest improvements. Engineers should still review and verify AI-generated information before using it.
+
